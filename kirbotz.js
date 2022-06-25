@@ -484,7 +484,7 @@ const fakekirbotz = {
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: 'Created By JARR BOTZ',
+      caption: 'Created By PERGAM STORE',
       jpegThumbnail: ppnyauser,
       viewOnce: true
     }
@@ -753,7 +753,7 @@ async function replyTemplate(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by JARR BOTZ", 
+                                    footer: "Bot by PERGAM STORE", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -766,7 +766,7 @@ async function replyOwnerr(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by JARR BOTZ", 
+                                    footer: "Bot by PERGAM STORE", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -802,7 +802,7 @@ async function replyPremium(teks) {
                                         	  ]                 
                        const buttonMessage = { 
                                     text: teks, 
-                                    footer: "Bot by JARR BOTZ", 
+                                    footer: "Bot by PERGAM STORE", 
                                     templateButtons: buttonsDefault, 
                                     image: {url: thumb}                                   
                                                }
@@ -860,7 +860,7 @@ if (!isCreator) return reply(mess.owner)
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// Created By JARR BOTZ\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created By PERGAM STORE\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1559,7 +1559,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1594,7 +1594,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1629,7 +1629,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1664,7 +1664,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1699,7 +1699,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1800,8 +1800,8 @@ const sokrz = "6288226703423@s.whatsapp.net"
 const sokha = "6281385062956@s.whatsapp.net"
 const sokyu = "6281370435024@s.whatsapp.net"
 teksits = `「 *Thanks To* 」
-♕ JARR BOTZ @${sokl.split("@")[0]}
-♕ Dinata @${sokd.split("@")[0]}
+♕ PERGAM STORE @${sokl.split("@")[0]}
+♕ JARR STORE @${sokd.split("@")[0]}
 ♕ Ardy @${soka.split("@")[0]}
 ♕ DikaArtdnt. @${sokdi.split("@")[0]}
 ♕ Zakky @${sokt.split("@")[0]}
@@ -1960,14 +1960,14 @@ const botzkir = "6285212977726@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya JarrBotz Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya PergamStore Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttons = [
 {buttonId: `${prefix}rpgmenu`, buttonText: {displayText: 'Rpg Menu'}, type: 1},
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./Image/memeknya.jpg'), 
-fileName: `Bot by JARR BOTZ`, 
+fileName: `Bot by PERGAM STORE`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: thumb,
 caption: mbc,
@@ -1999,7 +1999,7 @@ kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
 				    itemCount: 99999999,
 				    status: 1,
 				    surface: 1,
-				    message: 'Created By JARR BOTZ',
+				    message: 'Created By PERGA. STORE',
 				    orderTitle: '999999999', 
 				    sellerJid: `0@s.whatsapp.net` 
 				   }
@@ -2634,7 +2634,7 @@ displayText: 'M E N U',
 id: `${prefix}menu`
 }
 }]
-kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By JARR BOTZ`, global.thumb, btn)
+kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By PERGAM STORE`, global.thumb, btn)
 }
 break
 case 'Assalamualaikum': case 'assalamualaikum':{
@@ -2733,10 +2733,10 @@ if (/webp/.test(mime)) {
 kirbotz.sendMessage(i, { sticker: { url: media } }, { quoted: m })
 } else if (/image/.test(mime)) {
 let junn = `*_BROADCAST IMAGE_*${text ? '\n\n' + text : ''}`
-kirbotz.send5ButImg(i, junn, `Created By JARR BOTZ`, buffer, butoon)
+kirbotz.send5ButImg(i, junn, `Created By PERGAM STORE`, buffer, butoon)
 } else if (/video/.test(mime)) {
 let junn = `*_BROADCAST VIDIO_*${text ? '\n\n' + text : ''}`
-kirbotz.send5Vid(i, junn, `Created By JARR BOTZ`, buffer, butoon)
+kirbotz.send5Vid(i, junn, `Created By PERGAM STORE`, buffer, butoon)
 } else if (/audio/.test(mime)) {
 kirbotz.sendMessage(i, {audio: buffer, mimetype: 'audio/mpeg'}, { quoted : m })
 } else {
@@ -2832,7 +2832,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3733,7 +3733,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3888,7 +3888,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3946,7 +3946,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3982,7 +3982,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4044,7 +4044,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4092,7 +4092,7 @@ case 'summersand':
 case 'horrorblood':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
-if (args.length == 0) return replyNya(`Example: ${prefix + command} JARR BOTZ`)
+if (args.length == 0) return replyNya(`Example: ${prefix + command} PERGAM STORE`)
 sticWait(from)
 ini_txt = args.join(" ")
 imagenya = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}&text=${ini_txt}`)
@@ -4103,7 +4103,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4136,7 +4136,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4244,7 +4244,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4299,7 +4299,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4331,7 +4331,7 @@ case 'wallgravity':
 case 'coolgravity':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
-if (args.length == 0) return replyNya(`Example: ${prefix + command} JARR BOTZ Botz`)
+if (args.length == 0) return replyNya(`Example: ${prefix + command} PERGAM STORE Botz`)
 sticWait(from)
 txt1 = args[0]
 txt2 = args[1]
@@ -4343,7 +4343,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4403,7 +4403,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4440,7 +4440,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4482,7 +4482,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4730,7 +4730,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4762,7 +4762,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4795,7 +4795,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4853,11 +4853,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: sewbot,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [
 {
 urlButton: {
-displayText: 'Owner JARR BOTZ',
+displayText: 'Owner JARR STORE',
 url: 'https://wa.me/628988649293'
 }
 }]
@@ -4883,11 +4883,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: donte,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
-url: 'https://github.com/JARR BOTZ'
+url: 'https://github.com/PERGAM STORE'
 }
 },
 {
@@ -5664,7 +5664,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5708,7 +5708,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5748,7 +5748,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5810,7 +5810,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Nih Kak`,
-hydratedFooterText: 'Created By JARR BOTZ',
+hydratedFooterText: 'Created By PERGAM STORE',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
